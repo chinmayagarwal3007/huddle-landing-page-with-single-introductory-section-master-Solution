@@ -1,0 +1,204 @@
+body{
+  background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.png");
+  background-color: #8b31e1;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 30% 30% 10% 10%;
+  grid-template-areas:
+     "header "
+     "div1"
+     "div2"
+     "logos"
+     "footer";
+}
+.logos{
+  grid-area: logos;
+  padding: 20px;
+  padding-top: 110px;
+  text-align: center;
+}
+.header{
+  grid-area: header;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.div1{
+  grid-area: div1;
+  padding: 20px;
+  padding-top: 0;
+}
+.div2{
+  grid-area: div2;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 20px;
+}
+.footer{
+  grid-area: footer;
+  padding: 20px;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 12px;
+}
+.facebook{
+  width: 9%;
+}
+.twitter{
+  width: 9%;
+}
+.instagram{
+  width: 9%;
+}
+.img2{
+  width: 95%
+}
+.img1{
+  width : 70%;
+}
+.h1{
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+}
+.p1{
+  color: #ffffff;
+  font-size: 19px;
+}
+.btn {
+   -webkit-border-radius: 44px;
+   -moz-border-radius: 44px;
+   border-radius: 44px;
+   height: 19px;
+   line-height: 19px;
+   color: #8B31E1;
+   font-family: Arial;
+   width: 179px;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #FFFFFF;
+   -webkit-box-shadow: 1px 1px 10px 0 #000000;
+   -moz-box-shadow: 1px 1px 10px 0 #000000;
+   box-shadow: 1px 1px 10px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #DA9FF9;
+   border: solid #DA9FF9 3px;
+   -webkit-border-radius: 44px;
+   -moz-border-radius: 44px;
+   border-radius: 44px;
+   text-decoration: none;
+   color: #ffffff;
+}
+@media only screen and (min-width: 546px) {
+  body{
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: 20% 49% 10% 10%;
+    grid-template-areas:
+        "header header header"
+        "div1 . div2"
+        "logos logos logos"
+        "footer footer footer"
+  }
+  .img1{
+    width: 50%;
+  }
+  .header{
+    padding-bottom: 500px;
+  }
+  .h1{
+    font-size: 38px;
+  }
+  .div2{
+    text-align: left;
+  }
+  .p1{
+    font-size: 27px;
+  }
+  .img2{
+    width: 120%;
+  }
+  .div1{
+    padding-top: 90px;
+  }
+  .facebook{
+    width: 5%;
+  }
+  .twitter{
+    width: 5%;
+  }
+  .instagram{
+    width: 5%;
+  }
+  .logos{
+    text-align: right;
+    padding-top: 0;
+  }
+  .footer{
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width:1050px) {
+  html{
+    max-height: 900px;
+  }
+  body{
+    max-height: 950px;
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: 15% 50% 10% 5%;
+    grid-template-areas:
+        "header header header"
+        "div1 . div2"
+        "logos logos logos"
+        "footer footer footer"
+  }
+  .img1{
+    width: 23%;
+  }
+  .header{
+    padding-bottom: 500px;
+  }
+  .h1{
+    font-size: 38px;
+  }
+  .div2{
+    text-align: left;
+  }
+  .p1{
+    font-size: 27px;
+  }
+  .img2{
+    width: 105%;
+  }
+  .div1{
+    padding-top: 40px;
+  }
+  .facebook{
+    width: 3%;
+  }
+  .twitter{
+    width: 3%;
+  }
+  .instagram{
+    width: 3%;
+  }
+  .logos{
+    text-align: right;
+    padding-top: 0;
+  }
+  .footer{
+    padding-top: 0;
+  }
+}
