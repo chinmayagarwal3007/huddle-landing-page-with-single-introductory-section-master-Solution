@@ -1,5 +1,5 @@
 body{
-  background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.png");
+  background-image: url("bg-mobile.png");
   background-color: #8b31e1;
   font-family: 'Open Sans', sans-serif;
 }
@@ -100,7 +100,7 @@ body{
 }
 @media only screen and (min-width: 546px) {
   body{
-    background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
+    background-image: url("bg-desktop.png");
     display: grid;
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: 20% 49% 10% 10%;
