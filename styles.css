@@ -67,6 +67,15 @@ body{
   color: #ffffff;
   font-size: 19px;
 }
+.facebook:hover{
+  width: 10%;
+}
+.twitter:hover{
+  width: 10%;
+}
+.instagram:hover{
+  width: 10%;
+}
 .btn {
    -webkit-border-radius: 44px;
    -moz-border-radius: 44px;
@@ -147,6 +156,15 @@ body{
   .footer{
     padding-top: 0;
   }
+  .facebook:hover{
+    width: 6%;
+  }
+  .twitter:hover{
+    width: 6%;
+  }
+  .instagram:hover{
+    width: 6%;
+  }
 }
 @media only screen and (min-width:1050px) {
   body{
@@ -197,5 +215,14 @@ body{
   }
   .footer{
     padding-top: 0;
+  }
+  .facebook:hover{
+    width: 4%;
+  }
+  .twitter:hover{
+    width: 4%;
+  }
+  .instagram:hover{
+    width: 4%;
   }
 }
