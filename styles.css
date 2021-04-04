@@ -154,7 +154,7 @@ body{
   }
   body{
     max-height: 950px;
-    background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
+    background-image: url("bg-desktop.png");
     display: grid;
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: 15% 50% 10% 5%;
